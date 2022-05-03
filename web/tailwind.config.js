@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'jit',
   content: ["./src/**/*.tsx"],
   theme: {
     extend: {
@@ -8,6 +9,14 @@ module.exports = {
         }
       }
     },
+    screens: {
+      'md': {
+        max: '768px'
+      },
+      'sm': {
+        max: '640px'
+      }
+    }
   },
   plugins: [],
 }

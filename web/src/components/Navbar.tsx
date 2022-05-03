@@ -1,10 +1,10 @@
 export function Navbar (): JSX.Element {
   return (
-    <div className="bg-zinc-800 h-20 flex items-center justify-center w-full">
-      <div className="flex items-center justify-between w-full max-w-5xl">
-        <div className="w-40 rounded-md bg-zinc-700 py-5"/>
+    <div className="bg-zinc-800 h-20 flex items-center justify-center w-full px-6">
+      <div className="flex items-center justify-between w-full max-w-5xl sm:justify-end">
+        <div className="w-40 rounded-md bg-zinc-700 py-5 sm:hidden"/>
 
-        <div className="flex items-center justify-between gap-6">
+        <div className="flex items-center justify-between gap-6 md:hidden">
           <div className="w-28 bg-zinc-700 rounded-lg h-3 py-3" />
           <div className="w-28 bg-zinc-700 rounded-lg h-3 py-3" />
           <div className="w-28 bg-zinc-700 rounded-lg h-3 py-3" />
