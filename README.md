@@ -14,7 +14,7 @@
 <br />
 
 <p align="center">
-  <img alt="FeedGet" src=".github/cover.jpg" width="100%">
+  <img alt="FeedGet" src=".github/cover.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
