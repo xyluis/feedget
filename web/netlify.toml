@@ -1,6 +1,0 @@
-[build]
-  command = "tsc && vite build"
-  publish = "/"
-
-[[plugins]]
-  package = "netlify-plugin-image-optim"
