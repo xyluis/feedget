@@ -6,7 +6,7 @@ export function Widget (): JSX.Element {
 
   return (
     <Popover className="absolute bottom-5 right-5">
-      <Popover.Panel>Hello World</Popover.Panel>
+      <Popover.Panel className="text-white">Hello World</Popover.Panel>
 
       <Popover.Button className="bg-brand-500 rounded-full px-3 h-12 text-white flex items-center group">
         <ChatTeardropDots className="w-6 h-6" />
