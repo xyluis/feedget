@@ -2,7 +2,7 @@
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-licença">Licença</a>
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 <br />
 
 <p align="center">
-  <img alt="FeedGet" src=".github/preview.jpg" width="100%">
+  <img alt="FeedGet" src=".github/cover.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
