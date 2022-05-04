@@ -5,18 +5,17 @@ module.exports = {
     extend: {
       colors: {
         brand: {
+          300: '#996DFF',
           500: '#8257E5'
         }
+      },
+      borderRadius: {
+        md: '4px'
       }
     },
-    screens: {
-      'md': {
-        max: '768px'
-      },
-      'sm': {
-        max: '640px'
-      }
-    }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('tailwind-scrollbar')
+  ],
 }
