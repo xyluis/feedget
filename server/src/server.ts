@@ -8,7 +8,7 @@ import { SubmitFeedbackUseCase } from './use-cases/submit-feedback-use-case'
 const app = express()
 
 app.use(cors({
-  origin: process.env.CORS_ORIGIN
+  origin: '*'
 }))
 app.use(express.json())
 
