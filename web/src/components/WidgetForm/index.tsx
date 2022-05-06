@@ -63,7 +63,7 @@ export function WidgetForm (): JSX.Element {
       )}
 
       <footer className="text-xs text-neutral-400">
-        <p>Feito com ♥ por <a className="underline underline-offset-2" href="https://github.com.xyluis">Luís</a></p>
+        <p>Feito com ♥ por <a className="underline underline-offset-2" href="https://github.com/xyluis">Luís</a></p>
       </footer>
     </div>
   )
