@@ -5,6 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "tsnd --transpile-only src/server.ts",
+    "start": "node dist/server.js",
+    "build" : "yarn tsc",
     "test": "jest"
   },
   "devDependencies": {

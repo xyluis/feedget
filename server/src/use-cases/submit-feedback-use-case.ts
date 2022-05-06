@@ -34,18 +34,16 @@ export class SubmitFeedbackUseCase {
       screenshot
     })
 
-    console.log('sendind email...')
-
     await this.mailAdapter.sendMail({
       subject: 'Seu feedback foi recebido!',
       body: [
         '<div style="font-family: sans-serif; font-size: 16px; color: #111111">',
         `<p>Tipo ${type}</p>`,
         `<p>Comentário ${comment}</p>`,
+        screenshot && `<img src=${screenshot}>`,
         '</div>'
-      ].join('')
+      ].filter(Boolean).join('')
     })
 
-    console.log('email sent')
   }
 }
