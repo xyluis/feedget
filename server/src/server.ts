@@ -10,6 +10,10 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
+app.get('/health', (request, response) => {
+  return response.sendStatus(200)
+})
+
 app.post('/feedbacks', async (request, response) => {
   const { type, comment, screenshot } = request.body
 
